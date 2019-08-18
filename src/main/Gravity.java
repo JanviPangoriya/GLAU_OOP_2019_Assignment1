@@ -9,11 +9,15 @@ import java.util.Scanner;
 public class Gravity {
 	// TODO 1: Create the main method
 	public static void main(String[] args) {
-		double time0.0;
+		double time=0.0;
 		double speed=0.0;
 		double distance=0.0;
 		double gravity=9.8;
 		Scanner obj =new Scanner(System.in);
+		time = obj.nextDouble();
+		speed=gravity*time;
+		distance=0.5*gravity*time*time;
+
 
 		 *   a. Declare all your necessary variables inside main method.
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
