@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 
 public class Gravity {
-	// TODO 1: Create the main method
 	public static void main(String[] args) {
 		double time=0.0;
 		double speed=0.0;
@@ -17,6 +16,7 @@ public class Gravity {
 		time = obj.nextDouble();
 		speed=gravity*time;
 		distance=0.5*gravity*time*time;
+		System.out.println("The speed of the object at "+time+" seconds after its release is "+speed+" and the distance the object has travelled in the "+time+" seconds after the realese is "+distance);
 
 
 		 *   a. Declare all your necessary variables inside main method.
